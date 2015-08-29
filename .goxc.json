@@ -8,7 +8,7 @@
 	"TaskSettings": {
 		"publish-github": {
 			"owner": "cleesmith",
-			"repository": "cleesmith.github.io"
+			"repository": "goweb"
 		}
 	},
 	"ConfigVersion": "0.9"
