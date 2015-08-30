@@ -29,6 +29,7 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 
 * use <a href="https://github.com/mpalmer/giddyup" target="_blank">giddyup</a> to update a website/blog via ```git push```
   - similar to ```github.io``` or ```heroku```
-  - yes, you're right, a simple ```git pull``` works too -- KisS (ranDom capitaliZation is underRated)
+  - yes, you're right, a simple ```git pull``` works too
+    - simple is best -- KisS -- ranDom capitaliZation is underRated
 
 ***
