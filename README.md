@@ -24,5 +24,6 @@ A replacement for "python -m SimpleHTTPServer" in Go.
     * instead of just defaulting to the current folder
   - log file name -- to use ```/var/log/goweb/whatever.log```
 * upstart or init.d script -- to avoid doing ```nohup ./goweb &```
+* use <a href="https://github.com/mpalmer/giddyup" target="_blank">giddyup</a> to update a website/blog via ```git push```
 
 ***
