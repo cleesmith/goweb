@@ -8,7 +8,7 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 
 * no huge python installation and packages required -- in other words:
   - there's no fooling around with installing stuff
-  - just plop/scp/wget/curl a goweb release, unzip, and off you go
+  - just plop/scp/wget/curl a goweb release, unzip, and off you go (so to speak)
 * its executable binary footprint is 4 times smaller than SimpleHTTPServer
 * there are no external dependencies -- everything is from Go's standard libraries
 * it's fast enough for my <a href="http://cleesmith.github.io/" target="_blank">blog</a>
