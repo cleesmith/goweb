@@ -16,10 +16,10 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 ### ToDos
 
 * input params
-  * host
-  * port
-  * path to folder for serving html and static assets
-  * log file name -- to use ```/var/log/goweb/whatever.log```
-  * upstart or init.d script -- to avoid doing ```nohup ./goweb &```
+  - host
+  - port
+  - path to folder for serving html and static assets
+  - log file name -- to use ```/var/log/goweb/whatever.log```
+* upstart or init.d script -- to avoid doing ```nohup ./goweb &```
 
 ***
