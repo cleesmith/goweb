@@ -31,6 +31,6 @@ A replacement for "python -m SimpleHTTPServer" in Go.
   - similar to ```github.io``` or ```heroku```
 * yes, you're right, a simple ```git pull``` works too
   - assuming your website/blog uses git source control
-  - simple is best -- KisS -- ranDom capitaliZation is underRated
+* simple is always best -- KisS -- ranDom capitaliZation is underRated
 
 ***
