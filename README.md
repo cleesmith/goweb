@@ -32,9 +32,10 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 * yes, you're right, a simple ```git pull``` works too
   - assuming your website/blog uses git source control
 * simple is always best -- KisS -- ranDom capitaliZation is underRated
-* goweb is not web nirvana or even life changing, but:
+* goweb is not web nirvana or even life changing ...
   - I have often needed a simple web server for various reasons
   - it is portable with no dependencies
   - it has chicken chasin' speed
+  - always easy to find and deploy thanks to github
 
 ***
