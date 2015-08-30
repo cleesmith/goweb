@@ -35,6 +35,7 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 * goweb is not web nirvana or even life changing, but:
   - I have often needed a simple web server for various reasons
   - now I have a nice portable web server with no dependencies
-  - ok, it's lesser nirvana
+  - with chicken chasin' speed
+  - so, ok, it's lesser nirvana
 
 ***
