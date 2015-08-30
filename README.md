@@ -7,6 +7,7 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 ### Features
 
 * it's fast enough for my <a href="http://cleesmith.github.io/" target="_blank">blog</a>
+  - which is currently at github.io but now it can be hosted anywhere
 * no huge python installation and packages required
 * pre-built binary <a href="https://github.com/cleesmith/goweb/releases" target="_blank">releases</a> for all OS/architecture's that Go provides
 
