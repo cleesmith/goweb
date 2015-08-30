@@ -34,8 +34,7 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 * simple is always best -- KisS -- ranDom capitaliZation is underRated
 * goweb is not web nirvana or even life changing, but:
   - I have often needed a simple web server for various reasons
-  - now I have a nice portable web server with no dependencies
-  - with chicken chasin' speed
-  - so, ok, it's lesser nirvana
+  - it is portable with no dependencies
+  - it has chicken chasin' speed
 
 ***
