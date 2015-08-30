@@ -20,5 +20,6 @@ A replacement for "python -m SimpleHTTPServer" in Go.
   * port
   * path to folder for serving html and static assets
   * log file name
+  * upstart script -- to avoid doing ```nohup ./goweb &```
 
 ***
