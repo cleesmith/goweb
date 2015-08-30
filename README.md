@@ -18,11 +18,11 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 ### ToDos
 
 * input params
-  - host
-  - port
-  - path to folder for serving html and static assets
+  - host (optional)
+  - port (optional)
+  - path to folder for serving html and static assets (optional)
     * instead of just defaulting to the current folder
-  - log file name -- to use ```/var/log/goweb/whatever.log```
+  - log file name -- to use ```/var/log/goweb/whatever.log``` (optional)
 * upstart or init.d script -- to avoid doing ```nohup ./goweb &```
 * use <a href="https://github.com/mpalmer/giddyup" target="_blank">giddyup</a> to update a website/blog via ```git push```
   - similar to ```github.io``` or ```heroku```
