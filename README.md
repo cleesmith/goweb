@@ -18,7 +18,8 @@ A replacement for "python -m SimpleHTTPServer" in Go.
 * input params
   - host
   - port
-  - path to folder for serving html and static assets, instead of just defaulting to the current folder
+  - path to folder for serving html and static assets
+    * instead of just defaulting to the current folder
   - log file name -- to use ```/var/log/goweb/whatever.log```
 * upstart or init.d script -- to avoid doing ```nohup ./goweb &```
 
