@@ -1,6 +1,3 @@
-// this is a more secure httpd, coz it uses:
-// http.FileServer and http.Dir, which have
-// file system checks to avoid break outs
 package main
 
 import (
@@ -16,24 +13,13 @@ func main() {
 	port := "80"
 	logit = log.New(os.Stdout, "", log.Ldate|log.Ltime|log.LUTC|log.Lmicroseconds)
 	logit.Printf("GoWeb: listening on port %v\n", port)
+	// the following has file system checks to avoid break outs:
 	fileHandler := http.FileServer(http.Dir("."))
-	// wrappedHandler := loggingHandler(fileHandler)
-	// err := http.ListenAndServe(":80", wrappedHandler)
 	err := http.ListenAndServe(":"+port, logWrapper(fileHandler))
 	if err != nil {
 		logit.Fatal("ListenAndServe: ", err)
 	}
 }
-
-// func loggingHandler(h http.Handler) http.Handler {
-// 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-// 		host, port, _ := net.SplitHostPort(r.RemoteAddr)
-// 		logit.Printf("%s \"%s\" for %s : %s\n", r.Method, r.URL.Path, host, port)
-// 		// logit.Printf("%T\n", w)
-// 		h.ServeHTTP(w, r)
-// 		// logit.Printf("w.status=%T=%v\n", w.status, w.status)
-// 	})
-// }
 
 // the following was taken from:
 // https://github.com/ajays20078/go-http-logger
