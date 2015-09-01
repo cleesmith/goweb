@@ -35,6 +35,9 @@ func main() {
 // 	})
 // }
 
+// the following was taken from:
+// https://github.com/ajays20078/go-http-logger
+
 type statusWriter struct {
 	http.ResponseWriter
 	status int
